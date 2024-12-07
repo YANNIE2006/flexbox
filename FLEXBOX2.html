@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin:0;
+    padding: 0;
+}
+        body{
+            height: calc(100vh - 150px);
+            display: flex;
+            flex-direction: column;
+        }
+        nav,main,footer, aside{
+            border: 1px solid black;
+           
+            margin: 4px;
+        }
+        .paren{
+            display: flex;
+        }
+        .main2{
+            flex-grow: 1;
+            display: flex;
+            flex-flow: row wrap;
+            margin: 4px;
+            height: 400px;
+            width: 500px;
+            border: 1px solid black;
+            align-content: flex-start;
+            align-content: center;
+            justify-content: center;
+        }.mb1{
+            margin: 2px;
+            border: 1px solid black;
+            height: 130px;
+            width: 200px;
+        }
+      main{
+        flex-grow: 1;
+        display: flex;
+      }
+      .main3{
+        flex-grow: 1;
+            display: flex;
+            flex-flow: row wrap;
+            margin: 4px;
+            border: 1px solid black;
+            height: 400px;
+            width: 500px;
+            align-content: flex-start;
+           
+            
+
+      }.mb2{
+        border: 1px solid black;
+        height: 80px;
+        width: 80px;
+        margin: 2px;
+      }
+      .abox{
+        border: 1px solid black;
+        height: 20px;
+        width: 100px;
+        margin: 1px;
+      }
+      
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="boc"></div>
+    </nav>
+    <div class="paren">
+        <main>
+            <div class="main2">
+                <div class="mb1"></div>
+                <div class="mb1"></div>
+                <div class="mb1"></div>
+                <div class="mb1"></div>
+            </div>
+            <div class="main3">
+                <div class="mb2"></div>
+                <div class="mb2"></div>
+                <div class="mb2"></div>
+                <div class="mb2"></div>
+                <div class="mb2"></div>
+                <div class="mb2"></div>
+                <div class="mb2"></div>
+                <div class="mb2"></div>
+                <div class="mb2"></div>
+                <div class="mb2"></div>
+                <div class="mb2"></div>
+                <div class="mb2"></div>
+                <div class="mb2"></div>
+                <div class="mb2"></div>
+                <div class="mb2"></div>
+            </div>
+        </main>
+        
+        <aside>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+        </aside>
+    </div>
+    <footer></footer>
+</body>
+</html>
